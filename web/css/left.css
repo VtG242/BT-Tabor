@@ -1,0 +1,58 @@
+body {
+    font-family: Tahoma, Helvetica, serif;
+    font-size: 10pt;
+    color: black;
+    background-color: white;
+    margin-left: 5px;
+}
+
+fieldset {
+    width: 90%;
+    text-align: left;
+}
+fieldset.trunning {
+    width: 210px;
+    height: 450px;
+    text-align: left;
+    } fieldset.ds {
+    width: 300px;
+    text-align: center;
+}
+legend {
+    font-weight: bolder;
+}
+
+#emsg {
+    color: red;
+    text-align: left;
+}
+#msg {
+    color: green;
+    text-align: left;
+}
+a.menu {
+    font-family: arial;
+    color: blue;
+    text-decoration: none;
+    font-size: 10pt;
+}
+a.menu:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 10pt;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.submit {
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+}

@@ -1,0 +1,84 @@
+/*
+	Grey Suits you Sir. Please host the images on your own server.
+	written by Stuart Colville http://www.muffinresearch.co.uk
+*/
+table,td
+{
+    border               : 1px solid #CCC;
+    border-collapse      : collapse;
+    font                 : small/1.5 "Tahoma", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+}
+table
+{
+    border                :none;
+    border                :1px solid #CCC;
+}
+thead th,
+tbody th
+{
+    background            : #FFF url(../img/th_bck.gif) repeat-x;
+    color                 : black;
+    padding               : 5px 10px;
+    border-left           : 1px solid #CCC;
+    font-weight           : normal;
+}
+tbody th
+{
+    background            : #fafafb;
+    border-top            : 1px solid #CCC;
+    text-align            : left;
+    font-weight           : normal;
+}
+tbody tr td
+{
+    text-align            : center;
+    padding               : 0px 5px 0px 10px;
+    color                 : black;
+}
+tbody tr:hover
+{
+    background            : #FFF url(../img/tr_bck.gif) repeat;
+}
+
+tbody tr:hover td
+{
+    color                 : black;
+}
+tfoot td,
+tfoot th
+{
+    background            : #FFF url(../img/foot_bck.gif) repeat;
+    border-left           : none;
+    border-top            : 1px solid #CCC;
+    color                 : #666;
+    padding               : 4px;
+    text-align            : center;
+}
+caption
+{
+    text-align            : center;
+    font-size             : 100%;
+    font-weight           : bolder;
+    padding               : 4px 0;
+    color                 : black;
+}
+table a:link
+{
+    color                 : blue;
+    text-decoration: none;
+}
+table a:visited
+{
+    color                 : blue;
+    text-decoration       : none;
+}
+table a:hover
+{
+    color                 : blue;
+    text-decoration       : underline;
+}
+table a:active
+{
+    color                 : blue;
+    text-decoration       : underline;
+}
